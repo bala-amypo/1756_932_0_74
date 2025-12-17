@@ -20,7 +20,11 @@ public class StudentEntity{
         this.id=id;
         this.name=name;
         this.email=email;
-        this.
+        this.cgpa=cgpa;
+    }
+
+    public StudentEntity{
+        
     }
 
     public void setName(String name){
