@@ -24,7 +24,7 @@ public class StudentEntity{
     }
 
     public StudentEntity{
-        
+
     }
 
     public void setName(String name){
@@ -45,7 +45,7 @@ public class StudentEntity{
         this.cgpa = cgpa;
     }
 
-    public String getCgpa(){
+    public float getCgpa(){
         return this.cgpa = cgpa;
     }
 }
