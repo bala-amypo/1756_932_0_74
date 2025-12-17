@@ -1,6 +1,6 @@
 package com.example.demo.service.impl;
 
-import java.util.list;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,8 +21,18 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public List<StudentEntity> getStudents(){
+    public List<StudentEntity> getStudents() {
         return repo.findAll();
+    }
+
+    @Override
+    public StudentEntity getStudentById(Long id) {
+        return repo.findById(id).orElse(null);
+    }
+
+    @Override
+    public void deleteStudentById(Long id) {
+        repo.deleteById(id);
     }
 
 }
