@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 
-@entity
+@Entity
 public class StudentEntity{
 
     @Id 
