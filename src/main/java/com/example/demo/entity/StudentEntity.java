@@ -23,7 +23,7 @@ public class StudentEntity{
         this.cgpa=cgpa;
     }
 
-    public StudentEntity{
+    public StudentEntity(){
 
     }
 
